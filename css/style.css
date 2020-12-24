@@ -1,0 +1,179 @@
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+h6, p, body, li {
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #222;
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+
+h1, h2 {
+  font-family: "Helvetica Nueue", sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #222;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+h3, h4, h5 {
+  font-family: "Source Serif Pro", serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #222;
+  font-weight: 300;
+}
+
+a {
+  color: #222;
+}
+
+a:hover {
+  color: #0433FF;
+}
+
+.u-brand {
+  color: #222;
+  font-weight: 600;
+}
+
+.u-dark {
+  color: #222;
+}
+
+.u-grey {
+  color: #959BA6;
+}
+
+.u-bold {
+  font-weight: 600;
+}
+
+.u-med {
+  font-weight: 400;
+}
+
+.right-align {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#header .container {
+  padding-top: 4em;
+  margin-bottom: 6em;
+}
+
+#header .container a {
+  text-decoration: none;
+}
+
+#header .links a {
+  color: #959BA6;
+  font-size: 1.8rem;
+  margin-left: 2em;
+}
+
+#header .links a:hover {
+  color: #222;
+}
+
+@media (max-width: 550px) {
+  #header .eight.columns {
+    width: 0;
+  }
+  #header .links a {
+    margin-left: 1em;
+  }
+}
+
+#intro .row {
+  padding-bottom: 4em;
+  border-bottom: 1px solid #D0D4DB;
+}
+
+#contact .row {
+  padding-top: 6em;
+  padding-bottom: 16em;
+  border-top: 1px solid #D0D4DB;
+}
+
+#work {
+  -webkit-transition: .1s ease;
+  padding: 2em 0;
+}
+
+#about .row {
+  padding-bottom: 8em;
+}
+
+#about img {
+  box-shadow: none;
+}
+
+img {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.12), 0 9px 25px 1px rgba(0,0,0,0.12), 0 10px 45px 0 rgba(0,0,0,0.12);
+  display: block;
+  width: 100%;
+  /* margin: auto; */
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 550px) {
+  img {
+    width: 95%;
+  }
+}
+
+.card {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.avatar {
+  width: 100%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.12), 0 9px 25px 1px rgba(0, 0, 0, 0.12), 0 10px 45px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 40px;
+}
+
+.button {
+  border: 1px solid #222;
+  color: #222;
+}
+
+.button:focus, .button:hover {
+  border: 1px solid #0433FF;
+  color: #0433FF;
+}
+
+
+/* Break */
+
